@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ICON -->
+    <link rel="icon" href="./icons/counter_icon.ico" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Letter Counter</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <img src="./img/counter_icon.png" alt="logo" class="logo" />
+        <h3>letter lounter</h3>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <h2>letter counter</h2>
+        <input
+          type="text"
+          size="50"
+          id="inp"
+          onkeyup="letterCounter(this)"
+          placeholder="Enter your text"
+        />
+        <p id="output">></p>
+      </div>
+    </main>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
